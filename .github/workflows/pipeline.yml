@@ -6,7 +6,7 @@ on:
 jobs:
   release-pipeline:
     name: Release Pipeline
-    run-on:
+    runs-on:
       - windows-latest
     steps:
       - name: Hello Pipeline
